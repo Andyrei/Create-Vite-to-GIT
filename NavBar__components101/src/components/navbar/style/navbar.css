@@ -1,0 +1,25 @@
+.main_header{
+  width: 100%;
+  padding: 2rem;
+  background-color: orangered;
+  display: flex;
+  justify-content: space-between;
+}
+.main_nav ul {
+  height: 100%; /* shhhhh */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.main_nav ul li a{
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+.main_nav ul li a:hover{
+  text-decoration: underline;
+}
+.logo{
+  font-size: 3rem;
+  font-weight: bold;
+}
