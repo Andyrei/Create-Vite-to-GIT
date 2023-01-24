@@ -1,0 +1,23 @@
+:root{
+  --main_clr: #BB2649;
+  --light_clr: #fff;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main{
+  width: 1024px;
+  padding: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 10px 10px 40px 2px rgb(108, 108, 108);
+
+}
+
+.bg-primary {
+  background-color: var(--main_clr) !important;
+}
